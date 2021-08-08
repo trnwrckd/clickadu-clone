@@ -1,0 +1,86 @@
+
+body{
+    font-size: 0.9rem;
+}
+/* nav section */
+.nav-logo{
+    max-width: 171px;
+}
+/* hero-section */
+.hero-section{
+    margin-top: 80px;
+    background: url('/assets/hero-img.webp') center top no-repeat;
+    background-size: cover;
+    height: 494px;
+}
+[data-fs-xl]{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+[data-fs-xxl]{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+/* active publishers section */
+.active-publishers{
+    background: url(/assets/home-section-2.jpg) center top no-repeat;
+    background-size: auto 100%;
+    height: 405px;
+}
+.publisher-text-container{
+    /* padding-right: 15%; */
+}
+
+/* active campaigns section  */
+.active-campaigns{
+    background: url(/assets/home-section-3.jpg) center top no-repeat;
+    background-size: auto 100%;
+}
+.campaign-text-container{
+    /* margin-left:5%;
+    width:40%; */
+}
+/* advantages section */
+.advantages-section, .partners-section{
+    background: #e9f4fb;
+}
+svg{
+    width: 50px;
+    height: 50px;
+}
+.advantage-caption{
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+.advantage-desc{
+    font-size: 0.8rem;
+}
+
+/* blog section */
+.blog-title{
+    height: 45px;
+    font-size: 0.9rem;
+}
+
+/* partners section  */
+.partner-card{
+    height: 245px;
+}
+/* meet-us section */
+.meet-us-card{
+    height: 500px;
+}
+
+/* footer section */
+footer{
+    background-color: #2C3E50;
+    color: rgb(197, 194, 194);
+}
+.footer-nav-links{
+    display: inline;
+}
+.footer-nav-links>a{
+    text-decoration: none;
+    color: rgb(197, 194, 194);
+}
