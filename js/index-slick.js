@@ -6,6 +6,7 @@ $(document).ready(function () {
         speed: 300,
         slidesToShow: 3,
         slidesToScroll: 1,
+        draggable: true,
         responsive: [
             {
                 breakpoint: 1024,

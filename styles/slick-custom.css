@@ -18,8 +18,11 @@
     color: rgb(58, 58, 57);
 }
 
-.slick-dots {
+/* .slick-dots {
     margin-top: 20px;
+} */
+.slick-track{
+    padding-bottom: 15px;
 }
 
 .slick-dots li button::before {
