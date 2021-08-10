@@ -1,0 +1,27 @@
+body{
+    font-size: 0.9rem;
+}
+/* nav */
+.nav-logo{
+    max-width: 171px;
+}
+main{
+    margin-top: 80px;
+}
+
+/* common background color */
+.common-bg{
+        background: #e9f4fb;
+}
+/* footer section */
+footer{
+    background-color: #2C3E50;
+    color: rgb(197, 194, 194);
+}
+.footer-nav-links{
+    display: inline;
+}
+.footer-nav-links>a{
+    text-decoration: none;
+    color: rgb(197, 194, 194);
+}

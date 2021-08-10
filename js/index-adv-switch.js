@@ -25,7 +25,7 @@ $(document).ready(function () {
         // $(this).css("background", "yellow");
         console.log(id);
 
-        // $(".slideUp").fadeIn("slow");
+        // $(".slideUp").fadeIn("slow"); 
 
         $("#adv-title").html(titles[id - 1]);
 
