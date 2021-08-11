@@ -13,6 +13,19 @@ main{
 .common-bg{
         background: #e9f4fb;
 }
+/* neon-cards */
+.neon-shadow{
+    box-shadow: rgb(12, 79, 110) 0px -2px 10px -2px;
+    transition: transform 0.5s;
+    border-radius: 10px;
+}
+.neon-shadow:hover{
+    transform: scale(1.05);
+    box-shadow: rgb(255, 121, 3) 0px -2px 10px -2px;
+    cursor:pointer;
+}
+
+
 /* footer section */
 footer{
     background-color: #2C3E50;

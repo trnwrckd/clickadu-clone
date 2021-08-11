@@ -1,0 +1,5 @@
+.publisher-hero{
+    background: url('/assets/hero-img.webp') center top no-repeat;
+    background-size: cover;
+    height: 500px;
+}
