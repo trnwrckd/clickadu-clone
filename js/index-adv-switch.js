@@ -20,12 +20,15 @@ const content = [
 $(document).ready(function () {
 
     $(".adv-option").click(function () {
+        $(".adv-option").css("background-color", "");
+        $(".adv-option").css("color", "");
+        $(this).css("background-color", "rgb(251, 251, 87)");
+        $(this).css("color", "rgb(211, 47, 47)");
         let id = $(this).attr("id");
         $(".slideUp").fadeOut(500, function () {
             id = id.charAt(id.length - 1);
             // $(this).css("background", "yellow");
             console.log(id);
-
 
             $("#adv-title").html(titles[id - 1]);
 
