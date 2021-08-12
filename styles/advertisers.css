@@ -5,7 +5,7 @@
     /* height: 390px; */
 }
 /* promote section */
-.promote-section{
+.common-hero-bg{
     background-size: cover;
     background: url("/assets/advertisers/promote-bg.jpg") center top no-repeat;
 }
@@ -13,8 +13,5 @@
 @media only screen and (max-width: 768px) {
     .adv-hero{
         background: rgb(186, 253, 242);
-    }
-    .promote-section{
-        background: rgb(253, 252, 186);
     }
 }
