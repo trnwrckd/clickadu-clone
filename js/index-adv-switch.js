@@ -21,18 +21,19 @@ $(document).ready(function () {
 
     $(".adv-option").click(function () {
         let id = $(this).attr("id");
-        id = id.charAt(id.length - 1);
-        // $(this).css("background", "yellow");
-        console.log(id);
+        $(".slideUp").fadeOut(500, function () {
+            id = id.charAt(id.length - 1);
+            // $(this).css("background", "yellow");
+            console.log(id);
 
-        // $(".slideUp").fadeIn("slow"); 
 
-        $("#adv-title").html(titles[id - 1]);
+            $("#adv-title").html(titles[id - 1]);
 
-        const imageSrc = "assets/advertise-options/sample" + id + ".gif";
-        $("#adv-img").attr("src", imageSrc);
+            const imageSrc = "assets/advertise-options/sample" + id + ".gif";
+            $("#adv-img").attr("src", imageSrc);
 
-        $("#adv-content").html(content[id - 1]);
+            $("#adv-content").html(content[id - 1]);
+            $(".slideUp").fadeIn(500);
+        });
     });
-
 });
