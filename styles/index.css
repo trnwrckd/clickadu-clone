@@ -2,7 +2,7 @@
 .hero-section{
     background: url('/assets/hero-img.webp') center top no-repeat;
     background-size: cover;
-    height: 494px;
+    /* height: 494px; */
 }
 [data-fs-xl]{
     font-size: 2.5rem;
@@ -73,4 +73,17 @@ svg{
 /* meet-us section */
 .meet-us-card{
     /* height: 500px; */
+}
+
+/* media queries */
+@media only screen and (max-width: 768px) {
+    .hero-section{
+        background: rgb(186, 253, 242);
+    }
+    .active-publishers{
+        background: rgb(253, 186, 244);
+    }
+    .active-campaigns{
+        background: rgb(186, 193, 253);
+    }
 }

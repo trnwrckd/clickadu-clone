@@ -33,32 +33,35 @@
 
 <body>
     <header class="bg-white fixed-top">
-        <nav class="navbar navbar-expand-lg navbar-light container">
+        <nav class="navbar navbar-expand-lg container">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/index.html">
                     <img class="nav-logo" src="assets/logo.png" alt="logo">
                 </a>
                 <div>
-                    <button class="navbar-toggler me-5 mt-2" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                    <div class=" me-5 mt-2">
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span> <img src="assets/hamburger.png" alt=""></span>
+                        </button>
+                    </div>
                     <div class="collapse navbar-collapse mt-3" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/advertisers.html">Advertiser</a>
+                            <li class="nav-item hvr-underline-from-right">
+                                <a class="nav-link" aria-current="page" href="/advertisers.html">Advertiser</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item hvr-underline-from-right">
                                 <a class="nav-link" href="/publishers.html">Publisher</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item hvr-underline-from-right">
                                 <a class="nav-link" href="#">media kit</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item hvr-underline-from-right">
                                 <a class="nav-link" href="/blog.html">blog</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item hvr-underline-from-right">
                                 <a class="nav-link" href="contact.html">contact</a>
                             </li>
                         </ul>
@@ -90,11 +93,12 @@
                                     <div class="col d-flex flex-column">
                                         <h5> Daily Impressions</h5>
                                         <span data-fs-xl> 4Bln+</span>
-                                        <!-- <div><img class="img-fluid" src="/curve1.png" alt=""></div> -->
+                                        <div class="w-75"><img class="img-fluid" src="/assets/curve1.png" alt=""></div>
                                     </div>
                                     <div class="col d-flex flex-column">
                                         <h5> Daily Conversions</h5>
                                         <span data-fs-xl> 3.6Mln</span>
+                                        <div class="w-75"><img class="img-fluid" src="/assets/curve2.png" alt=""></div>
                                     </div>
                                 </div>
                             </div>
@@ -112,23 +116,23 @@
             <div class="ad-desktop-container d-none d-lg-block">
                 <div class="row row-cols-3 gx-5">
                     <div class="col-4 d-flex flex-column justify-content-center text-uppercase">
-                        <div id="opt-1" class="adv-option rounded py-3 px-5 d-flex align-items-center my-1">
+                        <div id="opt-1" class="adv-option rounded py-3 ps-5 d-flex align-items-center my-1">
                             <i class="fas fa-ad fs-2"></i>
                             <span class="px-4">Banner Ads</span>
                         </div>
-                        <div id="opt-2" class="adv-option rounded py-3 px-5 d-flex align-items-center my-1">
+                        <div id="opt-2" class="adv-option rounded py-3 ps-5 d-flex align-items-center my-1">
                             <i class="fas fa-ad fs-2"></i>
                             <span class="px-4">Pop Under</span>
                         </div>
-                        <div id="opt-3" class="adv-option rounded py-3 px-5 d-flex align-items-center my-1">
+                        <div id="opt-3" class="adv-option rounded py-3 ps-5 d-flex align-items-center my-1">
                             <i class="fas fa-ad fs-2"></i>
                             <span class="px-4">Push Notifications</span>
                         </div>
-                        <div id="opt-4" class="adv-option rounded py-3 px-5 d-flex align-items-center my-1">
+                        <div id="opt-4" class="adv-option rounded py-3 ps-5 d-flex align-items-center my-1">
                             <i class="fas fa-ad fs-2"></i>
                             <span class="px-4">Inpage Push</span>
                         </div>
-                        <div id="opt-5" class="adv-option rounded py-3 px-5 d-flex align-items-center my-1">
+                        <div id="opt-5" class="adv-option rounded py-3 ps-5 d-flex align-items-center my-1">
                             <i class="fas fa-ad fs-2"></i>
                             <span class="px-4">Skim</span>
                         </div>
@@ -255,7 +259,7 @@
                                     advertising
                                     services</p>
                                 <div>
-                                    <button class="btn btn-warning text-light">Sign up now</button>
+                                    <button class="adbliv-btn adbliv-btn-red">Sign up now</button>
                                 </div>
                             </div>
                         </div>

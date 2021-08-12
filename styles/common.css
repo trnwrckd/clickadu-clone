@@ -1,13 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
 body{
     font-size: 0.9rem;
-}
-/* nav */
-.nav-logo{
-    max-width: 171px;
+    font-family: 'Ubuntu', sans-serif;  
 }
 main{
     margin-top: 80px;
 }
+
+
+/* nav */
+.nav-logo{
+    max-width: 171px;
+}
+.nav-link{
+    /* font-size: 1rem; */
+    font-weight: 500;
+    color: #080808;
+    transition: color .5s;
+}
+.nav-link:focus, .nav-link:hover{
+    color: #e76f51;
+}
+.nav-link.active{
+    color: rgb(146, 146, 146);
+    /* font-size: 1rem; */
+}
+.navbar-toggler{
+    /* background-color:; */
+    border: 2px solid black;
+}
+.navbar-togggler:focus{
+    border: 2.5px solid navy;
+}
+.navbar-toggler-icon{
+    color: black;
+}
+.hvr-underline-from-right{display:inline-block;vertical-align:middle;-webkit-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);box-shadow:0 0 1px rgba(0,0,0,0);position:relative;overflow:hidden}.hvr-underline-from-right:before{content:"";position:absolute;z-index:-1;left:100%;right:0;bottom:0;background:#162d4e;height:2px;-webkit-transition-property:left;transition-property:left;-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-timing-function:ease-out;transition-timing-function:ease-out}.hvr-underline-from-right:active:before,.hvr-underline-from-right:focus:before,.hvr-underline-from-right:hover:before{left:0}
+
+
 
 /* common background color */
 .common-bg{
@@ -23,6 +54,41 @@ main{
     transform: scale(1.05);
     box-shadow: rgb(255, 121, 3) 0px -2px 10px -2px;
     cursor:pointer;
+}
+/* button */
+.adbliv-btn{
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 10px 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: background 0.7s;
+    border:none;
+
+}
+.adbliv-btn-red{
+    background-color: #BF0000;
+    color: white;
+}
+.adbliv-btn-red:hover{
+    background-color: #FFCE19;
+    color: black;
+}
+.adbliv-btn-yellow{
+    background-color: #FFCE19;
+    color: black;
+}
+.adbliv-btn-yellow:hover{
+    background-color: #BF0000;
+    color: white;
+}
+.adbliv-btn-blue{
+    background-color: #0B5ED7;
+    color: white;
+}
+.adbliv-btn-blue:hover{
+    background-color: #00C6D6;
+    color: black;
 }
 
 
